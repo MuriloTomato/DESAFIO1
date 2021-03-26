@@ -50,7 +50,8 @@ namespace DESAFIO1
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Tabela IMC";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

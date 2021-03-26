@@ -49,6 +49,11 @@ namespace DESAFIO1
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void GO_Click(object sender, EventArgs e)
+        {
             Form2 Form2 = new Form2();
             Form2.Show();
             double IMC, ALTURA2, PESO2, FINAL2;
